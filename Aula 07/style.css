@@ -1,0 +1,17 @@
+h6 {
+    font-size: 30px;
+    font-family: monospace, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    color: crimson;
+}
+
+h3 {
+    border: 3px solid orangered;
+    border-radius: 10px;
+
+}
+
+p {
+    border: 2px solid black;
+    margin: 30px;
+}
