@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>Conteúdo Aula08 - HTML</title>
+
+        <style>
+            
+
+            /* a:link{
+                color: maroon;
+                text-decoration: none;
+            }
+            a:visited{
+                color: darkorange;
+                text-decoration: none;
+            }
+            a:hover{
+                color: darkcyan;
+                text-decoration: underline;
+            }
+            a:active{
+                color: deeppink;
+                text-decoration: none;
+                border: 2px solid pink;
+            } */
+
+            /* Transformando link em botão */
+
+            a:link, a:visited {
+                text-decoration: none;
+                background-color: bisque;
+                padding: 15px 25px;
+                display: inline-block;
+                border: 2px solid black;
+                border-radius: 12px;
+                color: black;
+            }
+
+            a:hover, a:active{
+                background: crimson;
+                color: bisque;
+                border: 2px solid white;
+                transition: .3s;
+
+            }
+
+            a:active{
+                transform: translateY(4px); /* afunda */
+                 /* tira a altura */
+                }
+
+        </style>
+  
+    </head>
+
+  <body>
+
+    <h1>Alterando cores de links</h1>
+
+    <a href="#">Isso é um link</a>
+
+    <hr>
+
+    <h3>Estilizando link como um botão</h3>
+
+    <a href="##">Botão</a>
+
+
+
+
+  </body>
+</html>
